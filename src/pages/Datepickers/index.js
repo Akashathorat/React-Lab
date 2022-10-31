@@ -24,8 +24,8 @@ export default function Datepickers(props) {
   ]
 
   return (
+    <>
     <div>
-
       <Header postUrl="https://www.devaradise.com/react-datepicker-tutorial"/>
       <div className="page-container container text-center">
         <div className="page-header">
@@ -36,7 +36,7 @@ export default function Datepickers(props) {
           <Tabs data={tabsData} parentPath={parentPath}></Tabs>
         </div>
       </div>
-
     </div>
+  </>
   )
 }
